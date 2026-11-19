@@ -1,0 +1,7 @@
+{
+  "name": "prompt_v2__anthropic_claude-sonnet-4.5",
+  "model": "anthropic/claude-sonnet-4.5",
+  "prompt_file": "prompts/prompt_v2.txt",
+  "prompt_sha": "1e1ee9a933",
+  "n": 160
+}

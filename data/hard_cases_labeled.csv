@@ -1,0 +1,51 @@
+id,text,source,type,comment,category,escalate
+h001,I was charged twice for my order and it still hasn't arrived. What is going on?,llm_draft,edge,спорно: payment/delivery,payment,false
+h002,Can I get a refund? The thing I ordered showed up completely broken.,llm_draft,edge,,refund,false
+h003,"Your app keeps crashing every time I try to pay, and I need this order by Friday.",llm_draft,edge,спорно: tech_issue/payment,payment,false
+h004,"Where is my refund? Also, your website won't let me log in.",llm_draft,edge,спорно: refund/tech_issue,refund,false
+h005,I want to cancel my subscription — you keep charging me for stuff I never bought.,llm_draft,edge,спорно: payment/other; списания за несовершённые покупки — мошенничество,payment,true
+h006,"Do you deliver to Portugal, and can I pay when it arrives?",llm_draft,edge,спорно: delivery/payment,delivery,false
+h007,My card got declined but the money still left my account. I need that order.,llm_draft,edge,спорно: payment/delivery,payment,false
+h008,I can't log into my account and I have a gift card I can't use.,llm_draft,edge,спорно: tech_issue/payment,tech_issue,false
+h009,"Please cancel order 12345, I ordered the wrong size. Actually, just send the right one.",llm_draft,edge,спорно: refund/delivery,refund,false
+h010,The delivery guy left my package outside and now it's gone. I want my money back.,llm_draft,edge,спорно: refund/delivery,refund,false
+h011,I've been waiting for my refund for 3 weeks and nobody picks up the phone. This is ridiculous.,llm_draft,edge,спорно: правило 5 (раздражение + refund висит 3 недели),refund,true
+h012,"I need help with my invoice, and also what are your opening hours?",llm_draft,edge,спорно: payment/other,payment,false
+h013,Someone from another country logged into my account and changed my password. I think I've been hacked.,llm_draft,rare,,tech_issue,true
+h014,There's a $500 charge on my card that I never made. I want it reversed today.,llm_draft,rare,,payment,true
+h015,You've been taking money out every month for a subscription I never signed up for.,llm_draft,rare,спорно: payment/other,payment,true
+h016,My lawyer will be in touch. You've ignored my emails for weeks.,llm_draft,rare,,other,true
+h017,I'm filing a complaint with the consumer protection agency and disputing these charges with my bank.,llm_draft,rare,спорно: payment/other,payment,true
+h018,I'm opening a dispute with my bank to get this charge reversed.,llm_draft,rare,,payment,true
+h019,Get me a manager right now. Your agent was useless and I'm done being polite.,llm_draft,rare,,other,true
+h020,"Please transfer me to a human agent, the bot keeps misunderstanding me.",llm_draft,rare,,other,true
+h021,I'm a real person and I need to speak to an actual person about my account.,llm_draft,rare,спорно: other/tech_issue,other,true
+h022,This is urgent — I smell gas near my building from one of your delivery trucks.,llm_draft,rare,спорно: delivery/other; угроза безопасности,delivery,true
+h023,I found a $75 charge from a website I've never visited. My card details must have been stolen.,llm_draft,rare,,payment,true
+h024,I've contacted support three times about this and nobody has helped. I'm furious.,llm_draft,rare,спорно: нет темы; правило 5,other,true
+h025,My account was locked and now someone is using my personal data. Please help urgently.,llm_draft,rare,,tech_issue,true
+h026,"I want to speak to your supervisor. Also, I never received my refund.",llm_draft,rare,спорно: other/refund,refund,true
+h027,This is the worst service ever. Your app is a joke.,llm_draft,negative,,other,false
+h028,Are you kidding me?! I've been on hold for 40 minutes and this bot is useless.,llm_draft,negative,,other,false
+h029,I can't believe how incompetent your company is. Do better.,llm_draft,negative,,other,false
+h030,Your delivery driver was rude to me. This is unacceptable.,llm_draft,negative,спорно: delivery/other,other,false
+h031,I've had it with this garbage company. Never ordering again.,llm_draft,negative,,other,false
+h032,Your website is a complete disaster. I can't find anything. Pathetic.,llm_draft,negative,,tech_issue,false
+h033,You charged me for shipping on a $5 item. Highway robbery!!,llm_draft,negative,спорно: payment/delivery,payment,false
+h034,Nobody in this company knows what they're doing. I want answers about my order.,llm_draft,negative,,delivery,false
+h035,I regret ever signing up. Your service is trash.,llm_draft,negative,,other,false
+h036,This chatbot is dumber than a rock. Useless.,llm_draft,negative,,other,false
+h037,I asked a simple question and got a stupid canned answer. Unbelievable.,llm_draft,negative,,other,false
+h038,My package arrived a week late and the box was crushed. Thanks for nothing.,llm_draft,negative,,delivery,false
+h039,"Do you people even read these messages? Fix your checkout page, it's embarrassing.",llm_draft,negative,,tech_issue,false
+h040,I'm so done with this company. Refund my money and I'll never come back.,llm_draft,negative,,refund,false
+h041,asdf,llm_draft,noisy,,other,false
+h042,,llm_draft,noisy,,other,false
+h043,jdsao;pqwe,llm_draft,noisy,,other,false
+h044,hey whts up wiht my order lol,llm_draft,noisy,,delivery,false
+h045,refnd pls,llm_draft,noisy,,refund,false
+h046,"hola kebab, where is my pedido??",llm_draft,noisy,,delivery,false
+h047,!!! ... ???,llm_draft,noisy,,other,false
+h048,TRACK ORDER NOW!!!!1,llm_draft,noisy,,delivery,false
+h049,i want refundg im so angree,llm_draft,noisy,,refund,false
+h050,asdf qwerty zxcv,llm_draft,noisy,,other,false
